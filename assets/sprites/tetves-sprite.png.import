@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d6y4aho23t1u"
-path="res://.godot/imported/tetves-sprite.png-07bdb18ec5449c4e9e573ddd8ecd7a55.ctex"
+uid="uid://bjgwh2tw1ev7w"
+path="res://.godot/imported/tetves-sprite.png-ea45c0010f6cc300275d276d47fcb238.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/tetves-sprite.png"
-dest_files=["res://.godot/imported/tetves-sprite.png-07bdb18ec5449c4e9e573ddd8ecd7a55.ctex"]
+source_file="res://Assets/Sprites/tetves-sprite.png"
+dest_files=["res://.godot/imported/tetves-sprite.png-ea45c0010f6cc300275d276d47fcb238.ctex"]
 
 [params]
 

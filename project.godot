@@ -11,23 +11,45 @@ config_version=5
 [application]
 
 config/name="NarancsTetvesEsDugo"
-run/main_scene="res://scenes/game_level.tscn"
-config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/name_localized={
+"en": "I brought weed",
+"hu_HU": "Narancs, Tetves és Dugó: A szöszölés vége"
+}
+config/tags=PackedStringArray("starterkit")
+run/main_scene="res://Scenes/Levels/Level_01.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/bg_color=Color(0.885756, 0.587694, 0.27625, 1)
+boot_splash/image="uid://beynd1okbo2t2"
+config/icon="res://Icon.png"
+
+[autoload]
+
+GameManager="*res://Scripts/GameManager.gd"
+SceneTransition="*res://Scenes/Managers/SceneTransition.tscn"
+AudioManager="*res://Scenes/Managers/AudioManager.tscn"
+
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[editor_plugins]
+
+enabled=PackedStringArray()
 
 [input]
 
-move_left={
+Left={
 "deadzone": 0.5,
-"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":65,"key_label":0,"unicode":65,"location":0,"echo":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":65,"key_label":0,"unicode":97,"location":0,"echo":false,"script":null)
 ]
 }
-move_right={
+Right={
 "deadzone": 0.5,
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":68,"key_label":0,"unicode":100,"location":0,"echo":false,"script":null)
 ]
 }
-jump={
+Jump={
 "deadzone": 0.5,
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":32,"key_label":0,"unicode":32,"location":0,"echo":false,"script":null)
 ]
@@ -35,5 +57,4 @@ jump={
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.105469, 0.457031, 0.730469, 1)

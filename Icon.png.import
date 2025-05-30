@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drnh3p7w8q3aw"
-path="res://.godot/imported/nari-sprite.png-e351b6466e203e4f0d2294b96426318f.ctex"
+uid="uid://xeh8sn4tfl0r"
+path="res://.godot/imported/Icon.png-33e63688031d53466d4d656c73cf10ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/nari-sprite.png"
-dest_files=["res://.godot/imported/nari-sprite.png-e351b6466e203e4f0d2294b96426318f.ctex"]
+source_file="res://Icon.png"
+dest_files=["res://.godot/imported/Icon.png-33e63688031d53466d4d656c73cf10ca.ctex"]
 
 [params]
 
