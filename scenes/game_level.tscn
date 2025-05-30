@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bdkqifgwg3v1o" path="res://assets/sprites/backdrop/PLUTOCRAT CAT 3.png" id="2_p0rui"]
 [ext_resource type="PackedScene" uid="uid://dar80kdrmxbug" path="res://scenes/player_character.tscn" id="2_syr4k"]
-[ext_resource type="Script" path="res://scripts/player_character.gd" id="3_73y41"]
+[ext_resource type="Script" uid="uid://cfb78je04hkpk" path="res://scripts/player_character.gd" id="3_73y41"]
 [ext_resource type="PackedScene" uid="uid://28fa7ogdjbw6" path="res://scenes/platform.tscn" id="3_japab"]
 
 [node name="GameScene" type="Node2D"]
